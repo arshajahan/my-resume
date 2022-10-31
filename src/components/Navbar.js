@@ -24,7 +24,7 @@ const Navbar = () =>{
     return(
         <nav>
             <div className='navMain'>
-                <Link to='/' className='heading'>
+                <Link to='/my-resume' className='heading'>
                     <span id='bullet'></span>
                     <h2 className='profileName'>
                             Shajahan AR
@@ -33,9 +33,9 @@ const Navbar = () =>{
                 </Link>
                 <div className={`navLinks ${isActive ? "active" : ""}`}>
                     <ul className='links'>
-                        <li><Link to='/resume' onClick={linkHandler}>Resume</Link><span className='spanbar'>|</span></li>
-                        <li><Link to='/projects' onClick={linkHandler}>Projects</Link><span className='spanbar'>|</span></li>
-                        <li><Link to='/contact' onClick={linkHandler}>Contact</Link></li>
+                        <li><Link to='/my-resume/resume' onClick={linkHandler}>Resume</Link><span className='spanbar'>|</span></li>
+                        <li><Link to='/my-resume/projects' onClick={linkHandler}>Projects</Link><span className='spanbar'>|</span></li>
+                        <li><Link to='/my-resume/contact' onClick={linkHandler}>Contact</Link></li>
                     </ul>
                 </div>
                 <span className={`menubtn fa-solid  ${isActive ? "fa-times" : "fa-bars"}`} onClick={menuHandler}></span>

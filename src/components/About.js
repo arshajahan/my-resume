@@ -18,9 +18,9 @@ const About = () => {
                         little more about you.
                     </p>
                     <div className='pageLinks'>
-                        <Link to='/resume' id='resume'>Resume</Link>
-                        <Link to='/projects' id='projects'>Projects</Link>
-                        <Link to='/contact' id='contact'>Contact</Link>
+                        <Link to='/my-resume/resume' id='resume'>Resume</Link>
+                        <Link to='/my-resume/projects' id='projects'>Projects</Link>
+                        <Link to='/my-resume/contact' id='contact'>Contact</Link>
                     </div>
                 </div>
             </div>
