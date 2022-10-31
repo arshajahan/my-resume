@@ -1,0 +1,62 @@
+.contact-flex{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    font-weight: 200;
+}
+
+.contact-flex > div{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+}
+
+.single-contact{
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.contact-flex a{
+    font-weight: 200;
+}
+
+.row-flex{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.row-flex input{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 15rem;
+    background-color: transparent;
+}
+
+.message-row .input{
+    flex-basis: 60%;
+}
+
+.message-row .submit-btn{
+    flex-basis: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.submit-btn a{
+    border: 1px solid #000;
+    background-color: #E6B325;
+    padding: 2rem;
+    border-radius: 100%;
+    font-weight: 400;
+}
+
+.submit-btn a:hover{
+    background-color: #fff;
+}
+
+.row-flex #message{
+    height: 7rem;
+    width: 100%;
+}

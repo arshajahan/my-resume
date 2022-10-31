@@ -1,0 +1,87 @@
+
+.main-container{
+    display: flex;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+.main-container .main-title{
+    font-size: 1.7rem;
+    font-weight: 500;
+    flex-basis: 40%;
+}
+
+#download{
+    float: right;
+    margin-right: 7rem;
+    padding: 10px;
+    background-color: #E6B325;
+}
+
+#download:hover{
+    background-color: #000;
+    color: #E6B325;
+    cursor: pointer;
+}
+
+.main-container > div{
+    /* border: 1px solid white; */
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.group-main{
+    display: grid;
+    gap: 3rem;
+    flex-basis: 60%;
+}
+
+.single-main{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.duration{
+    flex-basis: 20%;
+    font-weight: 200;
+}
+
+.single-content{
+    flex-basis: 80%;
+}
+
+.single-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: .9rem;
+}
+
+.responsibilities ul li{
+    font-weight: 200;
+    list-style-type:none;
+    margin-bottom: 0.5rem;
+   
+}
+
+.responsibilities ul{
+    padding-left: 0;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.skill-grid > span{
+    border-radius: 2rem;
+    text-align: left;
+    padding: 1rem;
+    font-weight: 600;
+}
+

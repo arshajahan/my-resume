@@ -1,0 +1,58 @@
+.navMain, .links, .heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMain{
+   padding: 0 4rem;
+   /* background-color: #EAEAEA; */
+   padding-top: 2rem;
+   align-items: center;
+}
+
+.menubtn{
+    display: none;
+}
+
+.profileName{
+    font-size: 20px;
+
+}
+
+.heading #bullet{
+    border-radius: 12px;
+    padding:12px;
+    height: 0;
+    background-color: #E6B325;
+    align-self: center;
+    margin-right: .7rem;
+}
+
+.heading #title{
+    font-size:1rem;
+    font-weight: normal;
+    padding-left: 1rem;
+}
+
+
+
+.links{
+    list-style-type: none;
+    padding-left: 0;
+    gap: 1rem;
+}
+
+.links a:hover{
+    color: #E6B325 ;
+}
+
+.spanbar{
+    margin-left:1rem;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #000;
+}
+
+

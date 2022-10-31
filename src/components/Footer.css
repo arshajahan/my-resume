@@ -1,0 +1,241 @@
+
+#line{
+    margin: 0 3rem;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content p{
+    font-weight: lighter;
+}
+
+.content .label{
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.content a{
+    font-size: .9rem;
+}
+
+.content .icons a{
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    /* border: 1px solid black; */
+}
+
+
+/* -----------------Common Code for Resume Project Contact-------------- */
+
+.section-main{
+    margin-top: 5rem;
+    padding: 3rem;
+    padding-left: 10rem;
+    /* border: 1px solid black; */
+}
+
+.section-title{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* -----------------Common Code for Resume Project Contact-------------- */
+
+/*------------------------ Break points starts here ----------------------*/
+
+
+@media screen and (max-width: 950px){
+    .banner .brief{
+       
+        padding-left: max(10%, 3rem);
+        padding-right: min(10%, 0rem);
+    }
+
+  .heading #title{
+        display: block;
+        padding-left: 0;
+    }
+
+  .banner .pageLinks a{
+        font-size: 2.2vw;
+    }
+
+    .banner .aboutMe p{
+        width: 85%;
+    }
+
+    .footer .content{
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        
+    }
+
+    .section-main{
+        padding-left: 2rem;
+    }
+
+    .project-main .project-contents{
+        flex-basis: 60%;
+    }
+
+    .row-flex{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (max-width: 670px){
+    .navMain{
+        padding:2rem;
+    }
+
+    .banner .brief{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .project-main .single-project{
+        flex-direction:column;
+    }
+    .single-project .project-img{
+        text-align: left;
+    }
+   
+}
+
+
+@media screen and (max-width: 570px){
+
+   .spanbar{
+        display: none;
+    }
+
+    .menubtn{
+        display: block;
+        z-index: 1000;
+        font-size: 2rem;
+        
+    }
+
+    .navLinks{
+        right: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        z-index: 1000;
+        height: 100%;
+        /* background-color: blue; */
+        overflow: hidden;
+    }
+
+    .navLinks.active{
+        left: 0rem;
+        right: 0rem;
+        transform: translateX(0);
+        opacity: 1;
+        transition: .2s ease-in-out;
+    } 
+
+    .links{
+        margin-top: 0;
+        height: inherit;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #EAEAEA;
+    }
+
+    .links a{
+        font-size: 1.5rem;
+    }
+
+    .banner .brief{
+        flex-direction: column-reverse;
+    }
+
+    .banner .pageLinks a{
+        font-size: 5vw;
+    }
+
+    .banner .dp{
+        padding: 1.2rem;
+    }
+
+    .banner .dp img{
+        min-width: auto;
+        /* padding: 1rem; */
+    }
+    
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+
+    #line{
+        margin: 0;
+    }
+
+    .footer .content{
+        padding-left: 0;
+    }
+
+    .single-main{
+        flex-direction: column;
+    }
+
+    .resume{
+        padding: 2rem;
+    }
+
+    
+    .resume .skill-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .resume .skill-grid > span{
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    .contact-flex{
+        flex-direction: column;
+    }
+
+    .resume #download{
+        margin-right: 0;
+        font-size: small;
+    }
+}
+
+

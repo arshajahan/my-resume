@@ -1,0 +1,103 @@
+
+.banner{
+    min-height: fit-content;
+    /* background-color: #EAEAEA; */
+    height: max-content;
+}
+
+.brief{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding-right: 13%;
+    padding-left: 17%;
+    gap: 1.5rem;
+    padding-top: 9%;
+    width: auto;
+}
+
+.dp{
+    flex-basis: 80%;
+    /* border: 1px solid red; */
+    
+}
+
+.dp img{
+    min-width: 16rem;
+    max-width: 100%;
+    border-radius: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.aboutMe{
+    /* border: 1px solid green; */
+    padding: 0.5rem;
+    padding-right: 0;
+    
+}
+
+
+.aboutMe h2{
+    font-size: 6vw;
+    /* border: 1px solid green; */
+    width: max-content;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.aboutMe h3{
+    width: max-content;
+    margin-bottom: 1rem;
+}
+
+.aboutMe p{
+    text-align: justify;
+    margin-bottom: 2rem;
+    width: 65%;
+    color: grey;
+    line-height: 1.5rem;
+}
+
+
+.pageLinks{
+    height: auto;
+    /* border: 1px solid red; */
+    gap: 1rem;
+    display: flex;
+    width: auto;
+    width: max-content;
+}
+
+
+.pageLinks a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6vw;
+    font-weight:500;
+    padding: 15% 6%;
+    border: 1px solid grey;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+#resume{
+    background-color: #E6B325;
+}
+
+#projects{
+    background-color: red;
+}
+
+#contact{
+    background-color: skyblue;
+}
+
+#resume:hover, #projects:hover, #contact:hover{
+    background-color: #fff;
+}
+
+.footercontainer{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}

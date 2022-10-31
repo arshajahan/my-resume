@@ -1,0 +1,33 @@
+
+.single-project{
+    display: flex;
+    margin-top: 7rem;
+}
+
+.project-title{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+.project-details{
+    margin-top: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+.project-contents{
+    flex-basis: 40%;
+}
+
+.project-img{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-img img{
+    width: max(75%, 20rem);
+   
+}
