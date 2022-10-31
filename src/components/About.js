@@ -8,7 +8,7 @@ const About = () => {
         <section className='banner'>
             <div className='brief'>
                 <div className='dp'>
-                    <img src='./images/dp2.jpeg' alt='profile'/>
+                    <img src='/my-resume/images/dp2.jpeg' alt='profile'/>
                 </div>
                 <div className='aboutMe'>
                     <h2>Hello</h2>

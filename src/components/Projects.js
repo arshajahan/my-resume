@@ -21,7 +21,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project-img'>
-                    <img alt='project_img' src='/images/project.jpg'/>
+                    <img alt='project_img' src='/my-resume/images/project.jpg'/>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project-img'>
-                    <img alt='project_img' src='/images/project.jpg'/>
+                    <img alt='project_img' src='/my-resume/images/project.jpg'/>
                 </div>
             </div>
         </section>
