@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='single-project'>
                 <div className='project-contents'>
                     <div className='project-title'>
-                        Project Name01
+                        Marco CRM
                     </div>
                     <div className='project-details'>
                         I'm a paragraph. Click here to add your 
