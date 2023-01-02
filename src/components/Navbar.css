@@ -1,3 +1,4 @@
+
 .navMain, .links, .heading{
     display: flex;
     justify-content: space-between;
@@ -5,7 +6,7 @@
 
 .navMain{
    padding: 0 4rem;
-   /* background-color: #EAEAEA; */
+   background-color: #EAEAEA;
    padding-top: 2rem;
    align-items: center;
 }

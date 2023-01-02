@@ -44,7 +44,7 @@
     margin-bottom: auto;
 }
 
-.submit-btn a{
+.submit-btn button{
     border: 1px solid #000;
     background-color: #E6B325;
     padding: 2rem;
@@ -52,7 +52,7 @@
     font-weight: 400;
 }
 
-.submit-btn a:hover{
+.submit-btn button:hover{
     background-color: #fff;
 }
 

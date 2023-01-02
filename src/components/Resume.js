@@ -5,50 +5,52 @@ const Resume = () => {
     return(
         <section className='resume section-main'>
             <div className='section-title'>
-                Resume<a href='#' id='download'>Download Resume</a>
+                Resume<a href='https://drive.google.com/file/d/15wK-HlLnuMZEngJDgLq8tptemIAwZ-2O/view?usp=share_link' target='blank' id='download'>Download Resume</a>
             </div>
             <div className='all-experience main-container'>
                 <div className='experience-title main-title'>
-                    Work<br/>Experience
+                    Hands-on<br/>Experience
                 </div>
                 <div className='experiences group-main'>
                     <div className='one-experience single-main'>
                         <div className='duration'>
-                            2019-Present
+                            2022
                         </div>
                         <div className='experience-content single-content'>
                             <div className='role single-title'>
-                                Software Testing Engineer
+                                Software Testing Trainee
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>I'm a paragraph. dfdsfdsfClick here to add your own</li>
-                                    <li>text and edit mfdsf dsfdsf e.dfssdfdsfds  easy. Just click “Edit Text”</li>
-                                    <li>I'm a paragraph. Click here to add your own</li>
-                                    <li>text and edit me.  easy. Just click “Edit Text”</li>
+                                    <li>* Involved in analyzing FRS document, User stories & developing test plans, test cases, test script.</li>
+                                    <li>* Proficient in Defect management, including Defect creation, modification, tracking, and reporting using JIRA.</li>
+                                    <li>* Automating UI and Rest API using Selenium ,Rest Assured and PostMan.</li>
+                                    <li>* Validated the database by executing SQL queries</li>
+                                    <li>* Experience in working on POM Design pattern with Hybrid framework</li>
+                                    <li>* Familiarized with BDD software development approach and writing scenario using cucumber and gherkin</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className='one-experience single-main'>
                         <div className='duration'>
-                            2019-Present
+                            2017-2022
                         </div>
                         <div className='experience-content single-content'>
                             <div className='role single-title'>
-                                QA Engineer
+                                IT support Tech(Freelance)
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>I'm a paragraph.dfsdfds Click here to add your own</li>
-                                    <li>text and edit me.  easy. Just click “Edit Text”</li>
-                                    <li>I'm a paragraph. Click here to add your own</li>
-                                    <li>text and edit me.  easy. Just click “Edit Text”</li>
+                                    <li>* As a freelancer worked in multiple ELV and IT projects with different companies.</li>
+                                    <li>* Aquired skills in installation, testing and commisioning of projects include LAN, CCTV, PABX, GPON technologies.</li>
+                                    {/* <li>* I'm a paragraph. Click here to add your own</li>
+                                    <li>* text and edit me.  easy. Just click “Edit Text”</li> */}
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className='one-experience single-main'>
+                    {/* <div className='one-experience single-main'>
                         <div className='duration'>
                             2019-Present
                         </div>
@@ -58,14 +60,14 @@ const Resume = () => {
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>I'm a paragraph. Click here to add your own</li>
-                                    <li>text and edit me.  easy. Just click “Edit Text”</li>
-                                    <li>I'm a paragraph. Click here to add your own</li>
-                                    <li>text and edit me.  easy. Just click “Edit Text”</li>
+                                    <li>* I'm a paragraph. Click here to add your own</li>
+                                    <li>* text and edit me.  easy. Just click “Edit Text”</li>
+                                    <li>* I'm a paragraph. Click here to add your own</li>
+                                    <li>* text and edit me.  easy. Just click “Edit Text”</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='line'>
