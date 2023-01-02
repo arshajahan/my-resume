@@ -28,7 +28,7 @@ const Navbar = () =>{
                     <span id='bullet'></span>
                     <h2 className='profileName'>
                             Shajahan AR
-                        <span id='title'>Software Test Engineer</span>
+                        <span id='title'>Software Developer</span>
                     </h2>
                 </Link>
                 <div className={`navLinks ${isActive ? "active" : ""}`}>

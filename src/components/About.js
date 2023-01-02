@@ -14,9 +14,10 @@ const About = () => {
                     <h2>Hello</h2>
                     <h3>A Bit About Me</h3>
                     <p>
-                        IT Professional graduate recently trained & skilled in Software Testing who worked on multiple live
-                        projects, end-to-end application testing, proficient in Web App testing, Test Automation and API testing.
-                        Well prepared to work in a challenging environment where I can utilize my skills and knowledge.
+                    Experienced IT professional having full stack web developing experience and a passion for software 
+                    development. Skilled in React, Node.js, and MongoDB, with trained and experienced in end-to-end application 
+                    testing and API testing. Seeking a challenging role in software industry where I can utilize my technical skills 
+                    and knowledge to drive business success.
                     </p>
                     <div className='pageLinks'>
                         <Link to='/resume' id='resume'>Resume</Link>

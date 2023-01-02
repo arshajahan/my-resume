@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useEffect} from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
@@ -13,11 +13,10 @@ const App = () => {
 
   return (
     
-      <BrowserRouter basename='/my-resume'>
+      <BrowserRouter basename='/'>
         <Navbar/>
         <Routes>
           <Route path='/' element={<About/>}></Route>
-          <Route path='/my-resume' element={<About/>}></Route>
           <Route path='/resume' element={<Resume/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>

@@ -5,69 +5,71 @@ const Resume = () => {
     return(
         <section className='resume section-main'>
             <div className='section-title'>
-                Resume<a href='https://drive.google.com/file/d/15wK-HlLnuMZEngJDgLq8tptemIAwZ-2O/view?usp=share_link' target='blank' id='download'>Download Resume</a>
+                Resume<a href='https://drive.google.com/file/d/19mkA7Z0SATZO-_FhTmFc4zK3y6vFip6i/view?usp=share_link' target='blank' id='download'>Download Resume</a>
             </div>
             <div className='all-experience main-container'>
                 <div className='experience-title main-title'>
-                    Hands-on<br/>Experience
+                    Work Experience
                 </div>
                 <div className='experiences group-main'>
                     <div className='one-experience single-main'>
                         <div className='duration'>
-                            2022
+                        02/2021 - Present
                         </div>
                         <div className='experience-content single-content'>
                             <div className='role single-title'>
-                                Software Testing Trainee
+                            Software Developer | <br/>TreatAt.com
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>* Involved in analyzing FRS document, User stories & developing test plans, test cases, test script.</li>
-                                    <li>* Proficient in Defect management, including Defect creation, modification, tracking, and reporting using JIRA.</li>
-                                    <li>* Automating UI and Rest API using Selenium ,Rest Assured and PostMan.</li>
-                                    <li>* Validated the database by executing SQL queries</li>
-                                    <li>* Experience in working on POM Design pattern with Hybrid framework</li>
-                                    <li>* Familiarized with BDD software development approach and writing scenario using cucumber and gherkin</li>
+                                    <li>* Developed and maintained web applications using the MERN stack.</li>
+                                    <li>* Worked closely with the small cross-functional team to identify and prioritize project requirements.</li>
+                                    <li>* Integrated Zoho Desk with a web application to enable customer
+                                        service functionality, including the management of support
+                                        tickets and customer inquiries using Zoho API.
+                                    </li>
+                                    <li>* Implemented CI/CD using github action to ec2 instance.</li>
+                                    <li>* Experienced in using AWS EC2 for hosting web applications and SES for email.</li>
+                                    <li>* Implemented responsive design to ensure web applications were accessible on multiple devices.</li>
+                                    <li>* Assisted with the implementation of new features and functionality.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className='one-experience single-main'>
                         <div className='duration'>
-                            2017-2022
+                        02/2019 - 01/2021
                         </div>
                         <div className='experience-content single-content'>
                             <div className='role single-title'>
-                                IT support Tech(Freelance)
+                            Field Service Engineer | <br/>Etisalat UAE
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>* As a freelancer worked in multiple ELV and IT projects with different companies.</li>
-                                    <li>* Aquired skills in installation, testing and commisioning of projects include LAN, CCTV, PABX, GPON technologies.</li>
-                                    {/* <li>* I'm a paragraph. Click here to add your own</li>
-                                    <li>* text and edit me.  easy. Just click “Edit Text”</li> */}
+                                    <li>* Providing technical support to the Etisalat customers at their premises or remotely.</li>
+                                    <li>* Testing of new devices and software application.</li>
+                                    <li>* Successfully installing new service on time, achieving KPIs.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    {/* <div className='one-experience single-main'>
+                    <div className='one-experience single-main'>
                         <div className='duration'>
-                            2019-Present
+                        12/2016 - 01/2019
                         </div>
                         <div className='experience-content single-content'>
                             <div className='role single-title'>
-                                Freelance
+                            IT Support Technician | <br/>Mechatronics Systems & Networks
                             </div>
                             <div className='responsibilities'>
                                 <ul>
-                                    <li>* I'm a paragraph. Click here to add your own</li>
-                                    <li>* text and edit me.  easy. Just click “Edit Text”</li>
-                                    <li>* I'm a paragraph. Click here to add your own</li>
-                                    <li>* text and edit me.  easy. Just click “Edit Text”</li>
+                                    <li>* Providing technical support to the Etisalat customers at their premises or remotely.</li>
+                                    <li>* Testing of new devices and software application.</li>
+                                    <li>* Successfully installing new service on time, achieving KPIs.</li>
                                 </ul>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <div className='line'>
@@ -121,10 +123,11 @@ const Resume = () => {
                 <div className='all-skills group-main'>
                     <div className='single-main'>
                         <div className='skill-grid'>
-                            <span>Java</span><span>Selenium</span><span>TestNG</span>
-                            <span>Agile</span><span>Scrum</span><span>REST API</span>
+                            <span>ReactJs</span><span>Nodejs</span><span>Mongodb</span>
+                            <span>selenium</span><span>java</span><span>TestNG</span>
                             <span>SQL</span><span>Postman</span><span>Maven</span>
-                            <span>RestAssured</span><span>ReactJs</span><span>Jenkins</span>
+                            <span>RestAssured</span><span>Git</span><span>AWS</span>
+                            <span>HTML</span><span>CSS</span><span>Javascript</span>
                         </div>
                     </div>
                 </div>
