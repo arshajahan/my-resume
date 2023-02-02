@@ -5,7 +5,7 @@ const Resume = () => {
     return(
         <section className='resume section-main'>
             <div className='section-title'>
-                Resume<a href='https://drive.google.com/file/d/1NUMYMUb-EqJujMQ3pNx0tW-1scN8dbFW/view?usp=share_link' target='blank' id='download'>Download Resume</a>
+                Resume<a href='https://drive.google.com/file/d/1JqvTb3RoZwGCKdxwlaRr0nAtBatEAoKJ/view?usp=drivesdk' target='blank' id='download'>Download Resume</a>
             </div>
             <div className='all-experience main-container'>
                 <div className='experience-title main-title'>
